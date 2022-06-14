@@ -55,6 +55,14 @@ In the data we can see that 60% of the females that took the drug for aids end u
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table1 <- xtabs(~infected + treatment, data=females)
+rowPerc(table1)
+colPerc(table1)
+```
+
+As we look at the table the results showed us that those that took the treatment with drug had a 48% percent catching aids, and the ones that took the placebo cough aids 41%. We can see that the ones that took the placebo had a rely low chance of getting aids, then those that took the drug.
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
