@@ -61,12 +61,19 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-As we look at the table the results showed us that those that took the treatment with drug had a 48% percent catching aids, and the ones that took the placebo cough aids 41%. We can see that the ones that took the placebo had a rely low chance of getting aids, then those that took the drug.
+As we look at the table the results showed us that females that took the treatment with drug had a 48% percent catching aids, and the ones that took the placebo cough aids 41%. We can see that the ones that took the placebo had a really low chance of getting aids, then those that took the drug.
 
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The chances of this happening  based on the P value its a 7 out of 10,000 chances. If the drug worked that would have been a positive result, however this test did the opposite, more females were infected with aids as they took the drug then those that took the placebo.
 
 # Discussion and Conclusion
 
