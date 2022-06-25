@@ -79,7 +79,7 @@ The chances of this happening  based on the P value its a 7 out of 10,000 chance
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-In conclusion as we worked trough the data and the fisher test, we immediately notice that this clinical trial on females catching aids if they took the drug was a fail. We notice that females  that took the drug did in fact catch Aids and those that took the placebo didn't. As we looked at the table we see that almost 60% of the 100% that took the drug got infected with aids, and only 40% didn't. The fisher test showed us that you are more likely to catch aid if you take the drug then if you take the placebo. That's a chance that now one would like to take based on this test, the clinical trial was a fail.
+In conclusion as we worked trough the data and the fisherXY test, we immediately notice that this clinical trial on females catching aids if they took the drug was a fail. We notice that females  that took the drug did in fact are more at risk to catch the disease than those that took the placebo. As we looked at the table we see that almost 60% of the 100% that took the drug got infected with aids, and only 40% of them didn't. The fisherXY test showed us that you are more likely to catch aid if you take the drug then if you take the placebo. Based on the p value  of .00006596 being it such a small number proved that the drug wasn't effective against AIDS. That's a chance that now one would like to take based on this test, the clinical trial was a fail.
 
 
 
